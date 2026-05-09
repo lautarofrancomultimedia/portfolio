@@ -1,0 +1,407 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="utf-8" />
+    <meta content="width=device-width, initial-scale=1.0" name="viewport" />
+    <title>Lautaro Franco | Multimedia</title>
+
+    <link rel="icon" type="image/x-icon" href="img/ico.png">
+
+    <link
+        href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;600;700;800&family=Manrope:wght@400;500;700&display=swap"
+        rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&display=swap"
+        rel="stylesheet" />
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <div class="banner-aviso">Página en proceso</div>
+
+    <main class="contenido-principal">
+        <div class="contenedor-degradado-inicio">
+            <header class="contenedor cabecera-inicio">
+                <div class="contenido-inicio revelar">
+                    <span class="etiqueta-superior">DISEÑADOR MULTIMEDIAL</span>
+                    <h1 class="titulo-principal">LAUTARO<br /><span>FRANCO</span></h1>
+
+                    <p class="contenedor-biografia">
+                        Especializado en UI/UX, diseño gráfico y desarrollo web.
+                        Investigo al usuario, entiendo sus puntos de dolor y construyo soluciones que mejoran
+                        su experiencia. Trabajo en aplicaciones móviles, landing pages y rediseños con un
+                        enfoque centrado en las personas, buscando que cada interacción se sienta natural,
+                        cómoda y con identidad propia.
+                    </p>
+
+                    <div class="grilla-filtros">
+                        <button class="boton-filtro filtro-activo" data-filtro="todos">
+                            <span class="material-symbols-outlined icono-filtro">grid_view</span>
+                            <span class="texto-filtro">TODO</span>
+                        </button>
+                        <button class="boton-filtro" data-filtro="ui-ux">
+                            <span class="material-symbols-outlined icono-filtro">devices</span>
+                            <span class="texto-filtro">UI/UX</span>
+                        </button>
+                        <button class="boton-filtro" data-filtro="redes">
+                            <span class="material-symbols-outlined icono-filtro icono-secundario">celebration</span>
+                            <span class="texto-filtro">REDES</span>
+                        </button>
+                        <button class="boton-filtro" data-filtro="posters">
+                            <span class="material-symbols-outlined icono-filtro icono-terciario">art_track</span>
+                            <span class="texto-filtro">POSTERS</span>
+                        </button>
+                    </div>
+                </div>
+            </header>
+        </div>
+
+        <section id="galeria-trabajos" class="contenedor seccion-galeria">
+            <div class="cabecera-galeria revelar">
+                <div>
+                    <span id="etiqueta-curaduria" class="etiqueta-galeria">TODO</span>
+                    <h2 id="titulo-casos" class="titulo-seccion">Trabajos Realizados</h2>
+                </div>
+            </div>
+
+            <div id="grilla-galeria" class="grilla-proyectos revelar">
+
+                <!-- POSTERS -->
+
+                <div class="item-proyecto proyecto-grande" data-categoria="posters">
+                    <div class="tarjeta-proyecto">
+                        <img alt="Diseño de Poster" src="trabajos/posters/demonssoul.png" />
+                        <div class="contenedor-etiquetas">
+                            <span class="etiqueta etiqueta-terciaria">Posters</span>
+                        </div>
+                    </div>
+                    <h3 class="titulo-proyecto">Demons Soul - Poster Estilo Retro</h3>
+                </div>
+
+                <div class="item-proyecto proyecto-pequeno" data-categoria="posters">
+                    <div class="tarjeta-proyecto">
+                        <img alt="Diseño de Poster" src="trabajos/posters/cyberpunk.png" />
+                        <div class="contenedor-etiquetas">
+                            <span class="etiqueta etiqueta-terciaria">Posters</span>
+                        </div>
+                    </div>
+                    <h3 class="titulo-proyecto">CyberPunk 2077 - Poster Estilo Retro</h3>
+                </div>
+
+                <div class="item-proyecto proyecto-pequeno" data-categoria="posters">
+                    <div class="tarjeta-proyecto">
+                        <img alt="Diseño de Poster" src="trabajos/posters/messi.png" />
+                        <div class="contenedor-etiquetas">
+                            <span class="etiqueta etiqueta-terciaria">Posters</span>
+                        </div>
+                    </div>
+                    <h3 class="titulo-proyecto">Lionel Messi</h3>
+                </div>
+
+                <div class="item-proyecto proyecto-grande" data-categoria="posters">
+                    <div class="tarjeta-proyecto">
+                        <img alt="Diseño de Poster" src="trabajos/posters/doom.png" />
+                        <div class="contenedor-etiquetas">
+                            <span class="etiqueta etiqueta-terciaria">Posters</span>
+                        </div>
+                    </div>
+                    <h3 class="titulo-proyecto">Doom Generaciones - Poster Estilo Retro</h3>
+                </div>
+
+                <div class="item-proyecto proyecto-pequeno" data-categoria="posters">
+                    <div class="tarjeta-proyecto">
+                        <img alt="Diseño de Poster" src="trabajos/posters/forza.png" />
+                        <div class="contenedor-etiquetas">
+                            <span class="etiqueta etiqueta-terciaria">Posters</span>
+                        </div>
+                    </div>
+                    <h3 class="titulo-proyecto">Forza Horizon 5</h3>
+                </div>
+
+                <div class="item-proyecto proyecto-pequeno" data-categoria="posters">
+                    <div class="tarjeta-proyecto">
+                        <img alt="Diseño de Poster" src="trabajos/posters/gta6.png" />
+                        <div class="contenedor-etiquetas">
+                            <span class="etiqueta etiqueta-terciaria">Posters</span>
+                        </div>
+                    </div>
+                    <h3 class="titulo-proyecto">GTA VI - Poster Estilo Retro</h3>
+                </div>
+
+                <!-- REDES -->
+
+                <div class="item-proyecto proyecto-pequeno" data-categoria="redes">
+                    <div class="tarjeta-proyecto">
+                        <img alt="Imágenes para Redes Sociales" src="trabajos/redes/Tots_Ascacibar.png" />
+                        <div class="contenedor-etiquetas">
+                            <span class="etiqueta etiqueta-secundaria">Redes</span>
+                        </div>
+                    </div>
+                    <h3 class="titulo-proyecto">TOTS ARGENTINA FC25 - Ascacibar</h3>
+                </div>
+
+                <div class="item-proyecto proyecto-pequeno" data-categoria="redes">
+                    <div class="tarjeta-proyecto">
+                        <img alt="Imágenes para Redes Sociales" src="trabajos/redes/Tots_Martinez.png" />
+                        <div class="contenedor-etiquetas">
+                            <span class="etiqueta etiqueta-secundaria">Redes</span>
+                        </div>
+                    </div>
+                    <h3 class="titulo-proyecto">TOTS ARGENTINA FC25 - Martinez</h3>
+                </div>
+
+                <div class="item-proyecto proyecto-pequeno" data-categoria="redes">
+                    <div class="tarjeta-proyecto">
+                        <img alt="Imágenes para Redes Sociales" src="trabajos/redes/Tots_Mastantuono.png" />
+                        <div class="contenedor-etiquetas">
+                            <span class="etiqueta etiqueta-secundaria">Redes</span>
+                        </div>
+                    </div>
+                    <h3 class="titulo-proyecto">TOTS ARGENTINA FC25 - Mastantuono</h3>
+                </div>
+
+                <div class="item-proyecto proyecto-pequeno" data-categoria="redes">
+                    <div class="tarjeta-proyecto">
+                        <img alt="Imágenes para Redes Sociales" src="trabajos/redes/Tots_Navas.png" />
+                        <div class="contenedor-etiquetas">
+                            <span class="etiqueta etiqueta-secundaria">Redes</span>
+                        </div>
+                    </div>
+                    <h3 class="titulo-proyecto">TOTS ARGENTINA FC25 - Navas</h3>
+                </div>
+
+                <div class="item-proyecto proyecto-pequeno" data-categoria="redes">
+                    <div class="tarjeta-proyecto">
+                        <img alt="Imágenes para Redes Sociales" src="trabajos/redes/Tots_Vazquez.png" />
+                        <div class="contenedor-etiquetas">
+                            <span class="etiqueta etiqueta-secundaria">Redes</span>
+                        </div>
+                    </div>
+                    <h3 class="titulo-proyecto">TOTS ARGENTINA FC25 - Vazquez</h3>
+                </div>
+
+                <div class="item-proyecto proyecto-pequeno" data-categoria="redes">
+                    <div class="tarjeta-proyecto">
+                        <img alt="Imágenes para Redes Sociales" src="trabajos/redes/Alex Pereira.png" />
+                        <div class="contenedor-etiquetas">
+                            <span class="etiqueta etiqueta-secundaria">Redes</span>
+                        </div>
+                    </div>
+                    <h3 class="titulo-proyecto">UFC 316 - Alex Pereira</h3>
+                </div>
+
+                <div class="item-proyecto proyecto-pequeno" data-categoria="redes">
+                    <div class="tarjeta-proyecto">
+                        <img alt="Imágenes para Redes Sociales" src="trabajos/redes/Julianna Peña.png" />
+                        <div class="contenedor-etiquetas">
+                            <span class="etiqueta etiqueta-secundaria">Redes</span>
+                        </div>
+                    </div>
+                    <h3 class="titulo-proyecto">UFC 316 - Julianna Peña</h3>
+                </div>
+
+                <div class="item-proyecto proyecto-pequeno" data-categoria="redes">
+                    <div class="tarjeta-proyecto">
+                        <img alt="Imágenes para Redes Sociales" src="trabajos/redes/Khalil.png" />
+                        <div class="contenedor-etiquetas">
+                            <span class="etiqueta etiqueta-secundaria">Redes</span>
+                        </div>
+                    </div>
+                    <h3 class="titulo-proyecto">UFC 316 - Khalil Rountree Jr.</h3>
+                </div>
+
+                <div class="item-proyecto proyecto-pequeno" data-categoria="redes">
+                    <div class="tarjeta-proyecto">
+                        <img alt="Imágenes para Redes Sociales" src="trabajos/redes/Joshua Van.png" />
+                        <div class="contenedor-etiquetas">
+                            <span class="etiqueta etiqueta-secundaria">Redes</span>
+                        </div>
+                    </div>
+                    <h3 class="titulo-proyecto">UFC 328 - Joshua Van</h3>
+                </div>
+
+                <div class="item-proyecto proyecto-pequeno" data-categoria="redes">
+                    <div class="tarjeta-proyecto">
+                        <img alt="Imágenes para Redes Sociales" src="trabajos/redes/Taira.png" />
+                        <div class="contenedor-etiquetas">
+                            <span class="etiqueta etiqueta-secundaria">Redes</span>
+                        </div>
+                    </div>
+                    <h3 class="titulo-proyecto">UFC 328 - Tatsuro Taira</h3>
+                </div>
+
+                <!-- UI/UX -->
+                <div class="item-proyecto proyecto-fila" data-categoria="ui-ux">
+
+                    <a href="tik.html" class="tarjeta-horizontal">
+
+                        <!-- Mitad Izquierda: Información -->
+                        <div class="info-horizontal">
+                            <h3 class="titulo-horizontal">Tik</h3>
+                            <h4 class="subtitulo-horizontal">Aplicación Móvil</h4>
+
+                            <div class="linea-divisoria"></div>
+
+                            <p class="descripcion-horizontal">Ticks es una aplicación móvil de compra y venta de
+                                entradas para eventos musicales.
+                                Permite a los usuarios vender entradas de conciertos a los que no pueden asistir,
+                                y encontrar las que buscan de forma rápida y segura.</p>
+
+                            <span class="etiqueta etiqueta-primaria">UI/UX</span>
+                        </div>
+
+                        <!-- Mitad Derecha: Imagen -->
+                        <div class="imagen-horizontal">
+                            <img alt="App Tik" src="mockups/App Entradas/mockup_app.png" />
+                        </div>
+
+                    </a> <!-- Cierre de la etiqueta <a> -->
+
+                </div>
+
+                <div class="item-proyecto proyecto-fila" data-categoria="ui-ux">
+
+                    <a href="ole.html" class="tarjeta-horizontal">
+
+                        <!-- Mitad Izquierda: Información -->
+                        <div class="info-horizontal">
+                            <h3 class="titulo-horizontal">Olé</h3>
+                            <h4 class="subtitulo-horizontal">Landing Page</h4>
+
+                            <div class="linea-divisoria"></div>
+
+                            <p class="descripcion-horizontal">Diseñada para la Copa América 2024, la página centraliza
+                                los fixtures de todos los
+                                equipos participantes en un solo lugar. Incluye un sistema de suscripción por mail
+                                para que los usuarios reciban alertas e información exclusiva antes de cada partido
+                                de su selección.</p>
+
+                            <span class="etiqueta etiqueta-primaria">UI/UX</span>
+                        </div>
+
+                        <!-- Mitad Derecha: Imagen -->
+                        <div class="imagen-horizontal">
+                            <img alt="Olé Landing Page" src="mockups/Ole/ole.png" />
+                        </div>
+
+                    </a> <!-- Cierre de la etiqueta <a> -->
+
+                </div>
+
+                <div class="item-proyecto proyecto-fila" data-categoria="ui-ux">
+
+                    <a href="cinefilos.html" class="tarjeta-horizontal">
+
+                        <!-- Mitad Izquierda: Información -->
+                        <div class="info-horizontal">
+                            <h3 class="titulo-horizontal">Cinéfilos</h3>
+                            <h4 class="subtitulo-horizontal">Rediseño de página</h4>
+
+                            <div class="linea-divisoria"></div>
+
+                            <p class="descripcion-horizontal">Cinéfilos es una plataforma de noticias de cine y
+                                espectáculos con una comunidad
+                                muy activa. El rediseño reforzó esa identidad incorporando un espacio donde los
+                                usuarios pueden interactuar directamente con el contenido, haciendo la experiencia
+                                más participativa. </p>
+
+                            <span class="etiqueta etiqueta-primaria">UI/UX</span>
+                        </div>
+
+                        <!-- Mitad Derecha: Imagen -->
+                        <div class="imagen-horizontal">
+                            <img alt="Cinéfilos" src="mockups/Cinefilos/cinefilos.png" />
+                        </div>
+
+                    </a> <!-- Cierre de la etiqueta <a> -->
+
+                </div>
+
+            </div>
+        </section>
+
+        <section class="contenedor seccion-herramientas revelar">
+            <div class="cabecera-herramientas">
+                <h2 class="titulo-seccion">¿Qué herramientas uso?</h2>
+            </div>
+            <div class="grilla-herramientas">
+                <div class="tarjeta-herramienta">
+                    <img src="img/figma.png" alt="Figma" class="imagen-herramienta">
+                    <span class="nombre-herramienta">Figma</span>
+                </div>
+                <div class="tarjeta-herramienta">
+                    <img src="img/photoshop.png" alt="Photoshop" class="imagen-herramienta">
+                    <span class="nombre-herramienta">Photoshop</span>
+                </div>
+                <div class="tarjeta-herramienta">
+                    <img src="img/vs-code.png" alt="VS Code" class="imagen-herramienta">
+                    <span class="nombre-herramienta">VS Code</span>
+                </div>
+                <div class="tarjeta-herramienta">
+                    <img src="img/premiere.png" alt="Premiere Pro" class="imagen-herramienta">
+                    <span class="nombre-herramienta">Premiere Pro</span>
+                </div>
+                <div class="tarjeta-herramienta">
+                    <img src="img/filmora.webp" alt="Filmora" class="imagen-herramienta">
+                    <span class="nombre-herramienta">Filmora</span>
+                </div>
+                <div class="tarjeta-herramienta">
+                    <img src="img/resolume.svg" alt="Resolume" class="imagen-herramienta">
+                    <span class="nombre-herramienta">Resolume</span>
+                </div>
+                <div class="tarjeta-herramienta">
+                    <img src="img/claude.png" alt="Claude" class="imagen-herramienta">
+                    <span class="nombre-herramienta">Claude</span>
+                </div>
+                <div class="tarjeta-herramienta">
+                    <img src="img/blender.webp" alt="Blender" class="imagen-herramienta">
+                    <span class="nombre-herramienta">Blender</span>
+                </div>
+                <div class="tarjeta-herramienta">
+                    <img src="img/github.png" alt="Github" class="imagen-herramienta">
+                    <span class="nombre-herramienta">Github Desktop</span>
+                </div>
+                <div class="tarjeta-herramienta">
+                    <img src="img/illustrator.svg" alt="illustrator" class="imagen-herramienta">
+                    <span class="nombre-herramienta">Illustrator</span>
+                </div>
+                <div class="tarjeta-herramienta">
+                    <img src="img/soundforge.webp" alt="Sound Forge" class="imagen-herramienta">
+                    <span class="nombre-herramienta">Sound Forge</span>
+                </div>
+                <div class="tarjeta-herramienta">
+                    <img src="img/processing.png" alt="Processing" class="imagen-herramienta">
+                    <span class="nombre-herramienta">Processing</span>
+                </div>
+            </div>
+        </section>
+
+        <section class="seccion-contacto revelar">
+            <div class="contenedor flex-contacto">
+                <h2 class="titulo-contacto">CONTACTO</h2>
+                <div class="enlaces-contacto">
+                    <a href="#" class="item-contacto">
+                        <span class="material-symbols-outlined texto-primario">mail</span>
+                        <span>Francolautaro0601@gmail.com</span>
+                    </a>
+                    <a href="#" class="item-contacto">
+                        <span class="material-symbols-outlined texto-secundario">call</span>
+                        <span>221 592-3450</span>
+                    </a>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <script src="script.js"></script>
+    <div id="visor-imagenes" class="visor-oculto">
+        <span id="cerrar-visor" class="material-symbols-outlined">close</span>
+        <img id="imagen-ampliada" src="" alt="Vista ampliada">
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
