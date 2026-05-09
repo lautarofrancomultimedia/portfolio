@@ -622,6 +622,14 @@ button {
     will-change: opacity, transform;
 }
 
+@media (max-width: 768px) {
+    .revelar {
+        opacity: 1;
+        transform: none;
+        transition: none;
+    }
+}
+
 .revelar.visible {
     opacity: 1;
     transform: translateY(0);
