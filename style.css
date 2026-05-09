@@ -617,22 +617,21 @@ button {
    ========================================= */
 .revelar {
     opacity: 0;
-    transform: translateY(10px);
-    transition: opacity 0.8s ease-out, transform 0.2s ease-out;
-    will-change: opacity, transform;
-}
-
-@media (max-width: 768px) {
-    .revelar {
-        opacity: 1;
-        transform: none;
-        transition: none;
-    }
+    transform: translateY(20px);
+    transition: opacity 0.4s ease-out, transform 0.4s ease-out;
 }
 
 .revelar.visible {
     opacity: 1;
     transform: translateY(0);
+}
+
+@media (max-width: 767px) {
+    .revelar, .revelar.visible {
+        opacity: 1;
+        transform: none;
+        transition: none;
+    }
 }
 
 /* =========================================
