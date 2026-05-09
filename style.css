@@ -139,6 +139,19 @@ button {
     }
 }
 
+
+@media (max-width: 768px) {
+    .titulo-principal {
+        font-size: 7rem;
+    }
+}
+
+@media (max-width: 638px) {
+    .titulo-principal {
+        font-size: 5rem;
+    }
+}
+
 .titulo-principal span {
     color: rgba(143, 144, 149, 0.2);
 }
@@ -150,6 +163,16 @@ button {
     font-weight: 500;
     line-height: 1.625;
     margin-bottom: 5rem;
+}
+
+@media (max-width: 458px) {
+    .titulo-principal {
+        font-size: 4rem;
+    }
+
+    .contenedor-biografia {
+        font-size: 1rem;
+    }
 }
 
 /* Filtros / Pestañas */
