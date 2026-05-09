@@ -626,6 +626,13 @@ button {
     transform: translateY(0);
 }
 
+@media (max-width: 4068px) { /* prueba */
+    .revelar {
+        opacity: 1;
+        transform: none;
+        transition: none;
+    }
+
 /* =========================================
    VISOR DE IMÁGENES (LIGHTBOX)
    ========================================= */
