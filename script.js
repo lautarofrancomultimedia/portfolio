@@ -67,6 +67,7 @@ document.addEventListener('DOMContentLoaded', () => {
     const cerrarVisor = () => {
         visor.classList.remove('activo');
         document.body.classList.remove('no-scroll'); // Devuelve el scroll al fondo
+        document.body.style.paddingRight = '';
     };
 
     // 1. Abrir el visor al hacer clic en CUALQUIER PARTE del proyecto
