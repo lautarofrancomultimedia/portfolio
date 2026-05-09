@@ -50,7 +50,7 @@ document.addEventListener('DOMContentLoaded', () => {
             }
         });
     }, {
-        threshold: 0.1,
+        threshold: 0.5,
         rootMargin: "0px 0px 250px 0px" // Dispara la animación un poquito antes de llegar al borde
     });
 
